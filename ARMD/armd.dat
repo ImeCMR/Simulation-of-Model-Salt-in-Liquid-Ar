@@ -1,0 +1,23 @@
+         1                    ! istart: 0-CDT generate, 1-CDT from previous run
+         0                    ! ilts: 0 - solid, 1 - random
+       216                    ! natom: Np of atoms
+     20000                    ! ntime: No of MD steps
+       200                    ! nprint
+     1.194                    ! epsln: Ar epsilon (kJ/mol)
+     0.344                    ! sigma: Ar sigma (nm)
+     60.0                     ! temp: Initial temperature(K)
+ -1200.00                     ! expTenergy: Expected Total Energy (kJ/mol)
+    39.948                    ! mar: Mass of Argon (g/mol)
+     0.008314                 ! kb: Boltzmann constant (k/mol/K)
+     1.0                      ! rcut: Cutoff distance (nm)
+     0.001                    ! dt: MD time step (ps)
+     2.34                     ! xbox (nm)
+     2.34                     ! ybox
+     2.34                     ! zbox
+        0                     ! NorS: Normal(1) or salt(0)         
+armd.out                      ! General output file
+armd.eng                      ! Energy output file
+armd.cdt                      ! Coordinate output file
+init.pdb                      ! Coordinate output file
+finl.pdb                      ! Coordinate output file
+
